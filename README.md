@@ -18,7 +18,7 @@ It is additionally possible to add lines of text starting with numbers in the .t
   >危险 - Wéi xiǎn - danger <br>
   >12/16/2020 <br>
   >暗 - an - dark, dim <br>
-  >币 - Bì - coin, currency (eg: renminbi) <br>
+  >币 - Bì - coin, currency (eg: renminbi) /
 The program will reads lines of text starting with numbers as separations of card sections. For instance, the file above would have two card sections: "24abc" and "12/16/2020."
 Section "24abc" would contain the flashcards for 即使, 浪费, and 危险. Section "12/16/2020" would contain the flashcards for 暗 and 币. 
 While running the flashcards program, the user is given the choice to flip through cards of a particular section, or all the cards on the .txt file. <br>
