@@ -9,6 +9,7 @@ I personally chose to have the Chinese word's pinyin as the second element, and 
   >简介 - Jiǎnjiè - introduction, synopsis, summary <br>
   >征服 - Zhēngfú - conquer <br>
   >风格 - Fēnggé - style <br>
+
 If lines starting with Chinese characters do not contain 3 elements separated by 2 hyphens/en dashes/em dashes, they will be disregarded by the program. <br>
 
 It is additionally possible to add lines of text starting with numbers in the .txt file. For example, the .txt file could look like: <br>
@@ -18,7 +19,8 @@ It is additionally possible to add lines of text starting with numbers in the .t
   >危险 - Wéi xiǎn - danger <br>
   >12/16/2020 <br>
   >暗 - an - dark, dim <br>
-  >币 - Bì - coin, currency (eg: renminbi) /
+  >币 - Bì - coin, currency (eg: renminbi)
+
 The program will reads lines of text starting with numbers as separations of card sections. For instance, the file above would have two card sections: "24abc" and "12/16/2020."
 Section "24abc" would contain the flashcards for 即使, 浪费, and 危险. Section "12/16/2020" would contain the flashcards for 暗 and 币. 
 While running the flashcards program, the user is given the choice to flip through cards of a particular section, or all the cards on the .txt file. <br>
