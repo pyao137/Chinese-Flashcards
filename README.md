@@ -1,11 +1,11 @@
 # Chinese-Flashcards
 Created by Peter Yao (pyao137 on Github)
 
-This simple python program generates flashcards from a (correctly formatted) .txt file of Chinese vocabulary.
+This simple python program generates flashcards from a (properly formatted) .txt file of Chinese vocabulary.
 The .txt file must be formatted in a specific way for the program to work. Each line of the file should contain 3 elements separated by hyphens or en dashes, or em dashes.
 The first element must be a Chinese word. The other two elements can be whatever you wish. 
 I personally chose to have the Chinese word's pinyin as the second element, and its English meaning as the third. This choice affected some of the varaible names in my program.
-Example: <br>
+<br>Example: <br>
   简介 - Jiǎnjiè - introduction, synopsis, summary <br>
   征服 - Zhēngfú - conquer <br>
   风格 - Fēnggé - style <br>
