@@ -1,5 +1,5 @@
 # Chinese-Flashcards
-#Created by Peter Yao (pyao137 on Github)
+Created by Peter Yao (pyao137 on Github)
 
 This simple python program generates flashcards from a (correctly formatted) .txt file of Chinese vocabulary.
 The .txt file must be formatted in a specific way for the program to work. Each line of the file should contain 3 elements separated by hyphens or en dashes, or em dashes.
