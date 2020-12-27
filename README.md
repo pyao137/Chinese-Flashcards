@@ -11,7 +11,7 @@ I personally chose to have the Chinese word's pinyin as the second element, and 
   风格 - Fēnggé - style <br>
 If lines starting with Chinese characters do not contain 3 elements separated by 2 hyphens/en dashes/em dashes, they will be disregarded by the program. <br>
 
-It is additionally possible to add lines of text starting with numbers in the .txt file. For example, the file could look like: <br>
+It is additionally possible to add lines of text starting with numbers in the .txt file. For example, the .txt file could look like: <br>
   24abc <br>
   即使 - Jí shǐ – even if <br>
   浪费 - Làng fèi - waste <br>
