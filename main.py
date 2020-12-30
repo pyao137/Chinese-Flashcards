@@ -171,12 +171,12 @@ def test_correctness() -> None:
     else:
         print("No section tracking mismatch")
     abc: List[str] = []
-    print("The three lists:")
     for item in data["words"]:
         for ref in abc:
             if item == ref:
                 print(f"{item} has a repeat")
         abc.append(item)
+    print("The three lists:")
     for x in range(0, len(data["words"])):
         if data['pinyin'][x] == "NEW DECK":
             print("")
