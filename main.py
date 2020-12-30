@@ -170,8 +170,8 @@ def test_correctness() -> None:
         print("Error: section tracking mismatch.")
     else:
         print("No section tracking mismatch")
-    print("The three lists:")
     abc: List[str] = []
+    print("The three lists:")
     for item in data["words"]:
         for ref in abc:
             if item == ref:
