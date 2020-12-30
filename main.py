@@ -28,11 +28,10 @@ def main() -> None:
                         print("A line with a Chinese word did not contain 3 elements set off by dashes/hyphens and was thus dicarded.")
                     else:
                         note_words(line)
-    #test_correctness()  #Use this to see if the data was organized correctly.
     show_sections()
     flash_cards()
-    """Optional dump of results into a json file."""
-    # with open('result.txt', 'w', encoding = "utf8") as outfile:
+    #test_correctness()  #Use this to see if the data was organized correctly.
+    # with open('result.txt', 'w', encoding = "utf8") as outfile:  #Optionally dump data into a json.
     #     json.dump(data, outfile)
         
 
